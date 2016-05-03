@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp">
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="考试时间："
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/textView"
+                android:layout_column="6" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_select"
+                android:layout_column="8"
+                android:entries="@array/times"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="题目选择："
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/textView5"
+                android:layout_column="6" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question_select"
+                android:layout_column="8" />
+        </TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发   布  考  试"
+            android:textColor="#fff"
+            android:id="@+id/button3"
+            android:background="#52bbc2"
+           />
+
+
+    </TableLayout>
+</RelativeLayout>

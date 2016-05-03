@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/pblsh_test"
+        android:icon="@drawable/test"
+        android:title="发布考试" />
+    <item
+        android:id="@+id/sign_in"
+        android:icon="@drawable/qian"
+        android:title="签到" />
+
+    <item
+        android:id="@+id/upload_meterial"
+        android:icon="@drawable/upload"
+        android:title="上传资料" />
+    <item
+        android:id="@+id/createqu"
+        android:icon="@drawable/createqu"
+        android:title="创建或更新题库" />
+    <item
+        android:id="@+id/look_grades"
+        android:icon="@drawable/look"
+        android:title="查看学生成绩" />
+
+</menu>

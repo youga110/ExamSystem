@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/pblsh_test"
+        android:icon="@drawable/test"
+        android:title="参加考试" />
+
+    <item
+        android:id="@+id/upload_meterial"
+        android:icon="@drawable/upload"
+        android:title="下载资料" />
+
+    <item
+        android:id="@+id/look_grades"
+        android:icon="@drawable/look"
+        android:title="查看我的成绩" />
+
+</menu>
